@@ -1,0 +1,29 @@
+body {
+    background-color: lightgreen;
+    font-family: 'Roboto Slab', serif;
+}
+
+a {
+    color: black;
+    font-size: 25px;
+}
+
+a:hover{
+    color: lightskyblue
+}
+
+.imageright{
+    float: right;
+}
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+

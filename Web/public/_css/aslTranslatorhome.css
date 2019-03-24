@@ -1,0 +1,62 @@
+body {
+    background-color: lightgreen;
+    font-family: 'Roboto Slab', serif;
+}
+
+a {
+    color: black;
+    font-size: 25px;
+}
+
+li {
+    color: #00FFC0
+}
+
+h1 {
+    color: black
+}
+
+h2 {
+    color: black
+}
+
+a:hover{
+    color: lightseagreen
+}
+
+/* classes that can be used for elements,
+a container holds all the page's contents
+*/
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    height: 700px;
+    background-color: lightgreen
+}
+
+.banner {
+    width: 1200px;
+    height: 85px;
+    float: left;
+    background-color: lightblue;
+    border-radius: 20px;
+}
+.nav {
+    width: 200px;
+    height: 815px;
+    float: left;
+    background-color: lightgreen
+}
+
+.content {
+    width: 1000px;
+    height: 815px;
+    float: left;
+    background-color: lightgreen
+}
+
+.imageright{
+    float: right;
+}
+
