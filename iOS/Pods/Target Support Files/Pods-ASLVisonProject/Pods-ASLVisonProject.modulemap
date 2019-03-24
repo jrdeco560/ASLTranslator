@@ -1,0 +1,6 @@
+framework module Pods_ASLVisonProject {
+  umbrella header "Pods-ASLVisonProject-umbrella.h"
+
+  export *
+  module * { export * }
+}
