@@ -4,6 +4,7 @@
     //
     //  Created by Sahith Thummalapally on 3/23/19.
     //  Copyright © 2019 Sahith Thummalapally Inc. All rights reserved.
+    // Do not copy without permission!
     //
     
 
@@ -14,7 +15,7 @@
     import AVFoundation
     import Firebase
     
-    
+        
     class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate {
         
         

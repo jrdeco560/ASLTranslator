@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0F737733CEA105C14AD34746 /* Pods_ASLVisonProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF95EC57A9968E7FB665ECD /* Pods_ASLVisonProject.framework */; };
-		15067B9C2247D24900AAB4DF /* ASLPredictor.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 15067B9B2247D24900AAB4DF /* ASLPredictor.mlmodel */; };
+		15067B9E2247DA2D00AAB4DF /* ASLPredictor.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 15067B9D2247DA2D00AAB4DF /* ASLPredictor.mlmodel */; };
 		1540D2802246BD5F0005E94F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1540D27F2246BD5F0005E94F /* AppDelegate.swift */; };
 		1540D2822246BD5F0005E94F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1540D2812246BD5F0005E94F /* ViewController.swift */; };
 		1540D2852246BD5F0005E94F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1540D2832246BD5F0005E94F /* Main.storyboard */; };
@@ -20,7 +20,7 @@
 
 /* Begin PBXFileReference section */
 		055DB28392FE8C3E79E7B69C /* Pods-ASLVisonProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASLVisonProject.debug.xcconfig"; path = "Target Support Files/Pods-ASLVisonProject/Pods-ASLVisonProject.debug.xcconfig"; sourceTree = "<group>"; };
-		15067B9B2247D24900AAB4DF /* ASLPredictor.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ASLPredictor.mlmodel; sourceTree = "<group>"; };
+		15067B9D2247DA2D00AAB4DF /* ASLPredictor.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ASLPredictor.mlmodel; sourceTree = "<group>"; };
 		1540D27C2246BD5F0005E94F /* ASLVisonProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASLVisonProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1540D27F2246BD5F0005E94F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1540D2812246BD5F0005E94F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 		1540D27E2246BD5F0005E94F /* ASLVisonProject */ = {
 			isa = PBXGroup;
 			children = (
-				15067B9B2247D24900AAB4DF /* ASLPredictor.mlmodel */,
+				15067B9D2247DA2D00AAB4DF /* ASLPredictor.mlmodel */,
 				1540D2942246BD940005E94F /* GoogleService-Info.plist */,
 				1540D27F2246BD5F0005E94F /* AppDelegate.swift */,
 				1540D2812246BD5F0005E94F /* ViewController.swift */,
@@ -230,7 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15067B9C2247D24900AAB4DF /* ASLPredictor.mlmodel in Sources */,
+				15067B9E2247DA2D00AAB4DF /* ASLPredictor.mlmodel in Sources */,
 				1540D2822246BD5F0005E94F /* ViewController.swift in Sources */,
 				1540D2802246BD5F0005E94F /* AppDelegate.swift in Sources */,
 				1540D2882246BD5F0005E94F /* ASLVisonProject.xcdatamodeld in Sources */,
