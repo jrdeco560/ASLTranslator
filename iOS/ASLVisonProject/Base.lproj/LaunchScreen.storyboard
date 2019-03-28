@@ -26,7 +26,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gt3-5B-xDN">
-                                <rect key="frame" x="0.0" y="0.0" width="452" height="788"/>
+                                <rect key="frame" x="-11" y="0.0" width="452" height="788"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.51829695701599121" green="0.068508423864841461" blue="0.84213453531265259" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>

@@ -18,9 +18,13 @@
         
     class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate {
         
-        
+        @IBOutlet weak var timeLabel: UILabel!
         
             var predictString = ""
+            var counter = 0
+            var timer = Timer()
+            var isPlaying = false
+        
         
        
             enum HandLetter: String {
@@ -198,20 +202,33 @@
         
         }
         
+        @objc func UpdateTimer() {
+            counter = counter + Int(0.1)
+            timeLabel.text = String(format: "%.1f", counter)
+        }
+        
         
         @IBAction func startRecording(_ sender: Any) {
             
             
             configureCamera()
             
+            if(isPlaying) {
+                return
+            }
+            timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(UpdateTimer), userInfo: nil, repeats: true)
+            isPlaying = true
+           
+            
+            
             
         }
         
         
         @IBAction func endRecording(_ sender: Any) {
+            print("Program exited")
             exit(0)
         }
-        
         
         
             
@@ -221,6 +238,8 @@
                     
                     super.viewDidLoad()
                     configureCamera()
+                    timeLabel.text = String(counter)
+                    
                     
                 }
         
